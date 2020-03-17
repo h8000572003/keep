@@ -1,0 +1,242 @@
+<!doctype html>
+
+<html lang="en" class="h-100">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="generator" content="Hugo 0.67.0" />
+  <link rel="stylesheet" href="https://h8000572003.github.io/keep/css/bootstrap.min.css">
+  
+  
+  <title>FindBug | Vanilla</title>
+  <style>
+.container {
+  max-width: 700px;
+}
+#nav a {
+  font-weight: bold;
+  color: inherit;
+}
+#nav a.nav-link-active {
+  background-color: #212529;
+  color: #fff;
+}
+#nav-border {
+  border-bottom: 1px solid #212529;
+}
+#main {
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+#home-jumbotron {
+  background-color: inherit;
+}
+#footer .container {
+  padding: 1em 0;
+}
+#footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+.font-125 {
+  font-size: 125%;
+}
+.tag-btn {
+  margin-bottom: 0.3em;
+}
+pre {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit; 
+  background-color: transparent;
+  border-radius: 0;
+}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+img,
+iframe,
+embed,
+video,
+audio {
+  max-width: 100%;
+}
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: initial;
+}
+</style>
+</head>
+  <body class="d-flex flex-column h-100">
+    <div id="nav-border" class="container">
+  <nav id="nav" class="nav justify-content-center">
+  
+  
+  
+    
+    
+      
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/keep/"><i data-feather="home"></i> Home</a>
+  
+    
+    
+      
+      
+      
+      
+      
+       
+        
+        
+      
+    
+    
+    <a class="nav-link nav-link-active" href="/keep/post/"><i data-feather="edit"></i> Blog</a>
+  
+    
+    
+      
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/keep/tags/"><i data-feather="tag"></i> Tags</a>
+  
+    
+    
+      
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/keep/about/"><i data-feather="smile"></i> About</a>
+  
+    
+    
+      
+      
+      
+      
+      
+        
+      
+    
+    
+    <a class="nav-link " href="/keep/index.xml"><i data-feather="rss"></i> RSS</a>
+  
+  </nav>
+</div>
+
+    <div class="container">
+      <main id="main">
+        
+
+<h1>FindBug</h1>
+
+
+<i data-feather="calendar"></i> <time datetime="2020-03-17">Mar 17, 2020</time>
+
+  <br>
+  <i data-feather="tag"></i>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="https://h8000572003.github.io/keep/tags/java">JAVA</a>
+  
+  
+  <a class="btn btn-sm btn-outline-dark tag-btn" href="https://h8000572003.github.io/keep/tags/findbug">FindBug</a>
+  
+
+<br><br>
+<p>同樣是用來檢測 Java 程式的工具，其檢測的對象是 Byte Code (class 或是 jar 檔)。儘管如此，FindBugs 依舊是屬於靜態分析的方式。FindBugs 如其名，主要是利用 Bug Patterns 的概念，找尋出程式中有問題 (Bugs) 的程式碼 。在其官方的網站中提到 Bug Patterns 的產生可能有下列因素：
+程式語言本身不容易使用的功能 (Difficult language features)
+被誤用的 API (Misunderstood API methods)
+當程式碼在維護時，不變的條件被誤解了 (Misunderstood invariants when code is modified during maintenance)
+其他常見的錯誤，例如打錯字、或是使用了錯誤的布林運算元 (Garden varieity mistakes: typos, use of the wrong boolean operator)
+FindBugs 本身提供完整的 GUI 介面，讓使用者可以很方便地進行檢測的工作。因為 FindBugs 主要使用 Java 進行開發，所以可以運行於各種的作業系統上。雖然 FindBugs 是針對 ByteCode 進行掃描，但是在 GUI 中我們可以指定原始程式碼所在的目錄。如此一來， FindBugs 就會自動將發現問題的 ByteCode 與原始程式碼自動連結並加以顯示。
+eclipse plus</p>
+<pre><code>http://findbugs.cs.umd.edu/eclipse
+</code></pre>
+
+
+      </main>
+    </div>
+    
+<footer id="footer" class="mt-auto text-center text-muted">
+  <div class="container">
+    Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a>
+  </div>
+</footer>
+
+    <script src="https://h8000572003.github.io/keep/js/feather.min.js"></script>
+<script>
+  feather.replace()
+</script>
+
+
+    
+
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq"
+  crossorigin="anonymous"
+/>
+
+
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"
+></script>
+
+
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"
+></script>
+
+
+    
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </body>
+</html>

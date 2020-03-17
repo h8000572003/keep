@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FindBug on Vanilla</title>
+    <link>https://h8000572003.github.io/keep/tags/findbug/</link>
+    <description>Recent content in FindBug on Vanilla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>utf-8</language>
+    <lastBuildDate>Tue, 17 Mar 2020 23:14:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://h8000572003.github.io/keep/tags/findbug/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FindBug</title>
+      <link>https://h8000572003.github.io/keep/findbug/</link>
+      <pubDate>Tue, 17 Mar 2020 23:14:02 +0800</pubDate>
+      
+      <guid>https://h8000572003.github.io/keep/findbug/</guid>
+      <description>同樣是用來檢測 Java 程式的工具，其檢測的對象是 Byte Code (class 或是 jar 檔)。儘管如此，FindBugs 依舊是屬於靜態分析的方式。FindBugs 如其名，主要是利用 Bug Patterns 的概念，找尋出程式中有問題 (Bugs) 的程式碼 。在其官方的網站中提到 Bug Patterns 的產生可能有下列因素： 程式語言本身不容易使用的功能 (Difficult language features) 被誤用的 API (Misunderstood API methods) 當程式碼在維護時，不變的條件被誤解了 (Misunderstood invariants when code is modified during maintenance) 其他常見的錯誤，例如打錯字、或是使用了錯誤的布林運算元 (Garden varieity mistakes: typos, use of the wrong boolean operator) FindBugs 本身提供完整的 GUI 介面，讓使用者可以很方便地進行檢測的工作。因為 FindBugs 主要使用 Java 進行開發，所以可以運行於各種的作業系統上。雖然 FindBugs 是針對 ByteCode 進行掃描，但是在 GUI 中我們可以指定原始程式碼所在的目錄。如此一來， FindBugs 就會自動將發現問題的 ByteCode 與原始程式碼自動連結並加以顯示。 eclipse plus
+http://findbugs.cs.umd.edu/eclipse </description>
+    </item>
+    
+  </channel>
+</rss>
