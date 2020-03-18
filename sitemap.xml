@@ -3,47 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://h8000572003.github.io/keep/about/about/</loc>
+    <loc>https://example.com/</loc>
     <lastmod>2020-03-17T23:21:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://h8000572003.github.io/keep/about/</loc>
+    <loc>https://example.com/about/about/</loc>
     <lastmod>2020-03-17T23:21:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://h8000572003.github.io/keep/</loc>
+    <loc>https://example.com/about/</loc>
     <lastmod>2020-03-17T23:21:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://h8000572003.github.io/keep/tags/it/</loc>
-    <lastmod>2020-03-17T23:21:06+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h8000572003.github.io/keep/tags/</loc>
-    <lastmod>2020-03-17T23:21:06+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h8000572003.github.io/keep/tags/findbug/</loc>
+    <loc>https://example.com/tags/findbug/</loc>
     <lastmod>2020-03-17T23:14:02+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://h8000572003.github.io/keep/findbug/</loc>
+    <loc>https://example.com/findbug/</loc>
     <lastmod>2020-03-17T23:14:02+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://h8000572003.github.io/keep/tags/java/</loc>
+    <loc>https://example.com/tags/java/</loc>
     <lastmod>2020-03-17T23:14:02+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://h8000572003.github.io/keep/post/</loc>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2020-03-17T23:14:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
     <lastmod>2020-03-17T23:14:02+08:00</lastmod>
   </url>
   
