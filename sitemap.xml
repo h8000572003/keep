@@ -18,6 +18,16 @@
   </url>
   
   <url>
+    <loc>https://example.com/tags/it/</loc>
+    <lastmod>2020-03-17T23:21:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2020-03-17T23:21:06+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/tags/findbug/</loc>
     <lastmod>2020-03-17T23:14:02+08:00</lastmod>
   </url>
@@ -34,11 +44,6 @@
   
   <url>
     <loc>https://example.com/post/</loc>
-    <lastmod>2020-03-17T23:14:02+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
     <lastmod>2020-03-17T23:14:02+08:00</lastmod>
   </url>
   
