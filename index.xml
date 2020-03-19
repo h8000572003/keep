@@ -2,30 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Vanilla</title>
-    <link>https://example.com/</link>
+    <link>https://h8000572003.github.io/keep/</link>
     <description>Recent content in Home on Vanilla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>utf-8</language>
-    <lastBuildDate>Tue, 17 Mar 2020 23:21:06 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2020 17:02:44 +0800</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://h8000572003.github.io/keep/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
-      <link>https://example.com/about/about/</link>
-      <pubDate>Tue, 17 Mar 2020 23:21:06 +0800</pubDate>
+      <title>Sonarqube</title>
+      <link>https://h8000572003.github.io/keep/sonarqube/</link>
+      <pubDate>Thu, 19 Mar 2020 17:02:44 +0800</pubDate>
       
-      <guid>https://example.com/about/about/</guid>
-      <description>Hello</description>
+      <guid>https://h8000572003.github.io/keep/sonarqube/</guid>
+      <description>SonarQube簡介
+Sonar是一個用於代碼質量管理的開源平台，用於管理代碼的質量，是一個Web系統，展現了靜態代碼掃描的結果， 通過插件形式可以支持二十幾種語言的代碼質量檢測，通過多個維度的檢查了快速定位代碼中潛在的或者明顯的錯誤；
+SonarQube 程式碼品質分析工具用 7 個維度來分析程式碼品質，包括：
+ 程式架構　Architecture &amp;amp; Design 冗餘程式　Duplications 單元測試　Unit tests 複雜度　Complexity 潛在問題　Potential bugs 寫作原則　Coding rules 註解　Comments  </description>
+    </item>
+    
+    <item>
+      <title>關於我</title>
+      <link>https://h8000572003.github.io/keep/about/about/</link>
+      <pubDate>Thu, 19 Mar 2020 17:00:28 +0800</pubDate>
+      
+      <guid>https://h8000572003.github.io/keep/about/about/</guid>
+      <description>Hello JAVA
+public class Me{public void printSkills(){System.out.println(&amp;quot;JAVA&amp;quot;);...(&amp;quot;restful&amp;quot;);...(&amp;quot;WebService&amp;quot;);...(&amp;quot;Struts&amp;quot;);...(&amp;quot;Spring&amp;quot;);...(&amp;quot;JSP&amp;quot;);...(&amp;quot;JSF&amp;quot;);...(&amp;quot;SVN&amp;quot;);...(&amp;quot;GIT&amp;quot;);}public void joinProject(){...(&amp;quot;戶役政&amp;quot;);...(&amp;quot;台中公車android&amp;quot;);...(&amp;quot;OPEN DATA&amp;quot;);...(&amp;quot;國產署&amp;quot;);}public void learn(){//TODO}}</description>
     </item>
     
     <item>
       <title>FindBug</title>
-      <link>https://example.com/findbug/</link>
+      <link>https://h8000572003.github.io/keep/findbug/</link>
       <pubDate>Tue, 17 Mar 2020 23:14:02 +0800</pubDate>
       
-      <guid>https://example.com/findbug/</guid>
+      <guid>https://h8000572003.github.io/keep/findbug/</guid>
       <description>同樣是用來檢測 Java 程式的工具，其檢測的對象是 Byte Code (class 或是 jar 檔)。儘管如此，FindBugs 依舊是屬於靜態分析的方式。FindBugs 如其名，主要是利用 Bug Patterns 的概念，找尋出程式中有問題 (Bugs) 的程式碼 。在其官方的網站中提到 Bug Patterns 的產生可能有下列因素： 程式語言本身不容易使用的功能 (Difficult language features) 被誤用的 API (Misunderstood API methods) 當程式碼在維護時，不變的條件被誤解了 (Misunderstood invariants when code is modified during maintenance) 其他常見的錯誤，例如打錯字、或是使用了錯誤的布林運算元 (Garden varieity mistakes: typos, use of the wrong boolean operator) FindBugs 本身提供完整的 GUI 介面，讓使用者可以很方便地進行檢測的工作。因為 FindBugs 主要使用 Java 進行開發，所以可以運行於各種的作業系統上。雖然 FindBugs 是針對 ByteCode 進行掃描，但是在 GUI 中我們可以指定原始程式碼所在的目錄。如此一來， FindBugs 就會自動將發現問題的 ByteCode 與原始程式碼自動連結並加以顯示。 eclipse plus
 http://findbugs.cs.umd.edu/eclipse</description>
     </item>
