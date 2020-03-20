@@ -196,7 +196,7 @@ sonar可以很方便地統計並展示單元測試覆蓋率</li>
 通過sonar可以找出循環，展示包與包、類與類之間相互依賴關係，可以檢測自定義的架構規則通過sonar可以管理第三方的jar包，可以利用LCOM4檢測單個任務規則的應用情況， 檢測耦合。</li>
 </ul>
 <h2 id="介面簡介">介面簡介</h2>
-<p><img src="image/sonarqube/index.png" alt="首頁"></p>
+<p><img src="images/sonarqube/index.png" alt="首頁"></p>
 <blockquote>
 <p>綠色：功能列</p>
 </blockquote>
@@ -210,7 +210,11 @@ sonar可以很方便地統計並展示單元測試覆蓋率</li>
 </ul>
 <p><font color="#dd0000">BUG程式錯誤，漏洞可能被駭客利用部分</font><br /></p>
 <h2 id="過濾器分類bug漏洞與壞味道">過濾器分類BUG、漏洞與壞味道</h2>
-<p><img src="image/sonarqube/qa.png" alt="問題"></p>
+<p><img src="images/sonarqube-qa.png" alt="問題"></p>
+<p><img src="images/sonarqube/qa.png" alt="問題"></p>
+<blockquote>
+<p>綠色：條件篩選 紅色：查詢結果</p>
+</blockquote>
 <p>驗證性有五種層級：</p>
 <ul>
 <li>BLOCKER阻斷：影響功能很有可能發生memory leak</li>
@@ -219,16 +223,15 @@ sonar可以很方便地統計並展示單元測試覆蓋率</li>
 <li>MINOR次要：質量缺陷可能會稍微影響開發人員的生產力：行不應太長，“ switch”語句應至少包含3種情況，&hellip;</li>
 <li>INFO提示：錯誤或質量缺陷都只是發現。</li>
 </ul>
-<p><img src="image/sonarqube/setp1.png" alt="step1"></p>
-<p><img src="image/sonarqube/step2.png" alt="step2"></p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TD;
-    A--&gt;B;
-    A--&gt;C;
-    B--&gt;D;
-    C--&gt;D;
-</code></pre><pre><code class="language-mermaid" data-lang="mermaid">graph LR
-    fa:fa-check--&gt;fa:fa-coffee
-</code></pre>
+<p>檢視該弱點，並選擇該項目
+<img src="images/sonarqube/step1.png" alt="warm-item"></p>
+<p>檢視該項項目檢視
+<img src="images/sonarqube/step2.png" alt="view"></p>
+<p>檢視修改方式
+<img src="images/sonarqube/step3.png" alt="way"></p>
+<p>檢視該程式
+<img src="images/sonarqube/step4.png" alt="all"></p>
+
 
 
       </main>
