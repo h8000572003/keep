@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on Vanilla</title>
+    <title>Abouts on 學習筆記</title>
     <link>https://h8000572003.github.io/keep/about/</link>
-    <description>Recent content in Abouts on Vanilla</description>
+    <description>Recent content in Abouts on 學習筆記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>utf-8</language>
     <lastBuildDate>Thu, 19 Mar 2020 17:00:28 +0800</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>https://h8000572003.github.io/keep/about/about/</guid>
       <description>Hello JAVA
-public class Me{public void printSkills(){System.out.println(&amp;quot;JAVA&amp;quot;);...(&amp;quot;restful&amp;quot;);...(&amp;quot;WebService&amp;quot;);...(&amp;quot;Struts&amp;quot;);...(&amp;quot;Spring&amp;quot;);...(&amp;quot;JSP&amp;quot;);...(&amp;quot;JSF&amp;quot;);...(&amp;quot;SVN&amp;quot;);...(&amp;quot;GIT&amp;quot;);}public void joinProject(){...(&amp;quot;戶役政&amp;quot;);...(&amp;quot;台中公車android&amp;quot;);...(&amp;quot;OPEN DATA&amp;quot;);...(&amp;quot;國產署&amp;quot;);}public void learn(){//TODO}}</description>
+public class Me{ public void printSkills(){ System.out.println(&amp;quot;JAVA&amp;quot;); ...(&amp;quot;restful&amp;quot;); ...(&amp;quot;WebService&amp;quot;); ...(&amp;quot;Struts&amp;quot;); ...(&amp;quot;Spring&amp;quot;); ...(&amp;quot;JSP&amp;quot;); ...(&amp;quot;JSF&amp;quot;); ...(&amp;quot;SVN&amp;quot;); ...(&amp;quot;GIT&amp;quot;); } public void joinProject(){ ...(&amp;quot;戶役政&amp;quot;); ...(&amp;quot;台中公車android&amp;quot;); ...(&amp;quot;OPEN DATA&amp;quot;); ...(&amp;quot;國產署&amp;quot;); } public void learn(){ //TODO } } </description>
     </item>
     
   </channel>

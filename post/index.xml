@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Vanilla</title>
+    <title>Posts on 學習筆記</title>
     <link>https://h8000572003.github.io/keep/post/</link>
-    <description>Recent content in Posts on Vanilla</description>
+    <description>Recent content in Posts on 學習筆記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>utf-8</language>
-    <lastBuildDate>Thu, 19 Mar 2020 17:02:44 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2020 20:59:39 +0800</lastBuildDate>
     
 	<atom:link href="https://h8000572003.github.io/keep/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Sonarqube</title>
-      <link>https://h8000572003.github.io/keep/sonarqube/</link>
-      <pubDate>Thu, 19 Mar 2020 17:02:44 +0800</pubDate>
+      <title>PMD</title>
+      <link>https://h8000572003.github.io/keep/pmd/</link>
+      <pubDate>Thu, 19 Mar 2020 20:59:39 +0800</pubDate>
       
-      <guid>https://h8000572003.github.io/keep/sonarqube/</guid>
-      <description>SonarQube簡介
-Sonar是一個用於代碼質量管理的開源平台，用於管理代碼的質量，是一個Web系統，展現了靜態代碼掃描的結果， 通過插件形式可以支持二十幾種語言的代碼質量檢測，通過多個維度的檢查了快速定位代碼中潛在的或者明顯的錯誤；
-SonarQube 程式碼品質分析工具用 7 個維度來分析程式碼品質，包括：
- 程式架構　Architecture &amp;amp; Design 冗餘程式　Duplications 單元測試　Unit tests 複雜度　Complexity 潛在問題　Potential bugs 寫作原則　Coding rules 註解　Comments  </description>
+      <guid>https://h8000572003.github.io/keep/pmd/</guid>
+      <description>簡介 PMD 是來執行 Java 程式檢測的工具，檢測的對象是原始程式碼。雖然 PMD 看起來像是一個縮寫字，但是作者表示當初採用這個字純粹只是因為這幾個單字念起來很順口。根據網站上面的介紹， PMD 可以找出下列問題：
+ 疑似的臭蟲 (possible bugs)，例如空的 try/catch/finally/switch 描述句。 無法執行的程式碼 (dead code)，例如未使用的 local 變數、參數、或是 private 函數。 不良的程式碼 (suboptimal code)，例如效率不良的使用 String/StringBuffer 過於複雜的語法 (overcomplicated expressions)，例如不必要的 if 描述句，可以用 while 迴圈取代的 for 迴圈。 重複的程式碼 (duplicated code)，剪貼的程式碼表示臭蟲也被複製了。 PMD 本身沒有提供圖形化的介面，而必須透過命令列的方式加以操作。當然在支援 Ant 方面， PMD 是沒有問題的。除此之外，更支援 Maven 1/2 的開發環境。而對於多數程式開發人員關心的 IDE 支援度方面，幾乎市面上主要的 IDE 都受其支援。以此看來，要在大多數的開發環境下使用 PMD 幾乎是沒有甚麼門檻。  </description>
     </item>
     
     <item>
