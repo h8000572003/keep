@@ -1,0 +1,16 @@
+"1.0" encoding="UTF-8" standalone="no"?>  
+"http://localhost/JNLP/" href="git-tool.jnlp" spec="1.0+">  
+      
+          
+        John-Lee  
+        "https://h8000572003.github.io/keep"/>  
+        TestJNLP  
+        "short">TestJNLP  
+      
+          
+      
+      
+"1.5+"/>  
+"true" href="git-tool.jar" main="true"/>  
+      
+    class="testjnlp.MainFrame">  
