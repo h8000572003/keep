@@ -2,7 +2,7 @@
 
 <!--codebase 屬性指出搜尋應用程式資源的頂級URL,下面的icon/jar元素都是以這個URL為基本, 當然你也可以使用完整的url路徑.-->
 <!--codebase 據說直接填本地資料夾路徑都可以, 具體我也沒有試過, 有興趣的話可以嘗試下.-->
-<jnlp codebase="https://h8000572003.github.io/keep" href="./git-tool.jnlp">
+<jnlp codebase="https://h8000572003.github.io/keep" href="./app.jnlp">
     <!--    blog.bitsCN.com網管部落格等你來搏-->
     <information>
         <!-- 在"開始"-"執行"選單中輸入"javaws"或"javaws -viewer"啟動Web Start,會看到客戶端已經安裝的webstart應用程式-->
