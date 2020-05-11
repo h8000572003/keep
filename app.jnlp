@@ -7,9 +7,9 @@
     <information>
         <!-- 在"開始"-"執行"選單中輸入"javaws"或"javaws -viewer"啟動Web Start,會看到客戶端已經安裝的webstart應用程式-->
         <!--title ：應用程式標題 vendor：供應商, title/vendor 元素必須，會顯示在用"javaws -viewer"命令, 開啟的離線作業檢視器（Java Application Cache Viewer）中-->
-        <title>HelloWorld</title>
-        <vendor>哈哈哈哈</vendor>
-        <description>demo</description>
+        <title>git</title>
+        <vendor>v1.0</vendor>
+      <!--   <description></description>-->
 
         <!-- homepage ：存放有關應用程式的相關檔案的URL，如help檔案等，僅僅是description作用
         <homepage href="http://127.0.0.1:8080/jnlptest/index.html"/> -->
