@@ -7,12 +7,12 @@
     <information>
         <!-- 在"開始"-"執行"選單中輸入"javaws"或"javaws -viewer"啟動Web Start,會看到客戶端已經安裝的webstart應用程式-->
         <!--title ：應用程式標題 vendor：供應商, title/vendor 元素必須，會顯示在用"javaws -viewer"命令, 開啟的離線作業檢視器（Java Application Cache Viewer）中-->
-        <title>HelloWorld</title>
-        <vendor>哈哈哈哈</vendor>
-        <description>demo</description>
+        <title>Git tool</title>
+        <vendor>v1.0</vendor>
+        <description>git helper </description>
 
         <!-- homepage ：存放有關應用程式的相關檔案的URL，如help檔案等，僅僅是description作用
-        <homepage href="http://127.0.0.1:8080/jnlptest/index.html"/> -->
+        <homepage href="https://h8000572003.github.io/keep/gittool"/> -->
 
         <!--icon 指定圖示會顯示在離線作業檢視器中，在檢視器中新建webstart快捷方式到桌面時也會顯示為快捷方式圖示，只支援GIF/JPEG格式，其它格式無效-->
         <!---<icon href="./img/logo.jpg"/>-->
@@ -30,7 +30,9 @@
         <!-- 指定要下載到本地的jar檔案(注意，所有的檔案都需要打包才能夠下載)，可以包含一些資源檔案，如icons/configuration files，可以使用getResource方法取得-->
         <jar href="./git-tool.jar"/>
     </resources>
-
+    <security>
+		<all-permissions/>
+	</security>
     <!--application-desc 必須，指定webstart啟動時執行jar檔案中的哪個類-->
     <application-desc main-class="com.tradevan.project.controller.GitController"/>
 

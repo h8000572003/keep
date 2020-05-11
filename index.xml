@@ -6,10 +6,19 @@
     <description>Recent content in Home on 學習筆記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>utf-8</language>
-    <lastBuildDate>Thu, 19 Mar 2020 20:59:39 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2020 17:04:57 +0800</lastBuildDate>
     
 	<atom:link href="https://h8000572003.github.io/keep/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gittool</title>
+      <link>https://h8000572003.github.io/keep/gittool/</link>
+      <pubDate>Mon, 11 May 2020 17:04:57 +0800</pubDate>
+      
+      <guid>https://h8000572003.github.io/keep/gittool/</guid>
+      <description>簡介 GIT TOOL 功能清單  提供功能 建立tag(命名檢核) 產生changelog 更新分支 開發分支合併至sit sit分支合併至uat uat合併至master 建立分支 系統變更單，相關文字複製  </description>
+    </item>
     
     <item>
       <title>PMD</title>
