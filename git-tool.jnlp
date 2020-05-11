@@ -1,16 +1,37 @@
-"1.0" encoding="UTF-8" standalone="no"?>  
-"http://localhost/JNLP/" href="git-tool.jnlp" spec="1.0+">  
-      
-          
-        John-Lee  
-        "https://h8000572003.github.io/keep"/>  
-        TestJNLP  
-        "short">TestJNLP  
-      
-          
-      
-      
-"1.5+"/>  
-"true" href="git-tool.jar" main="true"/>  
-      
-    class="testjnlp.MainFrame">  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--codebase 屬性指出搜尋應用程式資源的頂級URL,下面的icon/jar元素都是以這個URL為基本, 當然你也可以使用完整的url路徑.-->
+<!--codebase 據說直接填本地資料夾路徑都可以, 具體我也沒有試過, 有興趣的話可以嘗試下.-->
+<jnlp codebase="https://h8000572003.github.io/keep" href="./git-tool.jnlp">
+    <!--    blog.bitsCN.com網管部落格等你來搏-->
+    <information>
+        <!-- 在"開始"-"執行"選單中輸入"javaws"或"javaws -viewer"啟動Web Start,會看到客戶端已經安裝的webstart應用程式-->
+        <!--title ：應用程式標題 vendor：供應商, title/vendor 元素必須，會顯示在用"javaws -viewer"命令, 開啟的離線作業檢視器（Java Application Cache Viewer）中-->
+        <title>HelloWorld</title>
+        <vendor>哈哈哈哈</vendor>
+        <description>demo</description>
+
+        <!-- homepage ：存放有關應用程式的相關檔案的URL，如help檔案等，僅僅是description作用
+        <homepage href="http://127.0.0.1:8080/jnlptest/index.html"/> -->
+
+        <!--icon 指定圖示會顯示在離線作業檢視器中，在檢視器中新建webstart快捷方式到桌面時也會顯示為快捷方式圖示，只支援GIF/JPEG格式，其它格式無效-->
+        <!---<icon href="./img/logo.jpg"/>-->
+
+        <!--splash 在sun的檔案中提到會出現在webstart啟動時的閃屏中，如果網路慢, 或啟動慢, 可以設定一下了-->
+  <!---       <icon kind="splash" href="./logo.jpg"/>-->
+
+        <!-- 允許離線啟動，可以使用javaws -offline命令-->
+        <offline-allowed/>
+    </information>
+
+    <resources>
+        <!-- 最好1.5以上, 下面我指定的是1.8, 因為我覺得1.8以前的版本都過時了, 哈哈 -->
+        <j2se version="1.8+"/>
+        <!-- 指定要下載到本地的jar檔案(注意，所有的檔案都需要打包才能夠下載)，可以包含一些資源檔案，如icons/configuration files，可以使用getResource方法取得-->
+        <jar href="./git-tool.jar"/>
+    </resources>
+
+    <!--application-desc 必須，指定webstart啟動時執行jar檔案中的哪個類-->
+    <application-desc main-class="com.tradevan.project.controller.GitController"/>
+
+</jnlp>
