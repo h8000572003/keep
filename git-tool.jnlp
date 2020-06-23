@@ -30,7 +30,7 @@
         <!-- 指定要下載到本地的jar檔案(注意，所有的檔案都需要打包才能夠下載)，可以包含一些資源檔案，如icons/configuration files，可以使用getResource方法取得-->
         <jar href="./git-tool.jar"/>
     </resources>
-    <security>
+	<security>
 		<all-permissions/>
 	</security>
     <!--application-desc 必須，指定webstart啟動時執行jar檔案中的哪個類-->
